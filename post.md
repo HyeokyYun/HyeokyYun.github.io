@@ -1,1 +1,1 @@
-오늘 게이트론 갈축 cox ck87 키보드를 선물 받았다. ㅎㅎㅎ
+Today I got a keyboard named "ck87".
