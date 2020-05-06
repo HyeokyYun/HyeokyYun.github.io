@@ -1,32 +1,24 @@
-title: Hyeoker-Blog
-description: "A Jekyll Blog Theme For Hackers"
-author:
-  name: "Korea Post"
-  email: "hyeoky98@gmail.com"
-  url: "https://hyeokyyun.github.io"
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
+email: hyeoky98@gmail.com
+brand: Hyeok Yun
+headline: Inventor, Engineer and Futurist
+description: > # this means to ignore newlines until "baseurl:"
+  New Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://HyeokyYun.github.io" # the base hostname & protocol for your site
+copyright: 2016 Whatever Company, Inc. All Rights Reserved.
 
-baseurl: /
+# Build settings
+markdown: kramdown
 
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 3
-paginate_path: /page/:num/
+# Account ids
+snapwidget: 247552
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Contacts
+email: hyeoky98@gmail.com
+phone: +82-10.3443-3102
 
-future: true
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Custom variables
-owner : "SomeHacker"
-year : "2020"
+# Tracking
+googleAnalitycsID: UA-83933844-1
