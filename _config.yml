@@ -1,35 +1,32 @@
-title: Lab14
-description: > # this means to ignore newlines until "baseurl:"
-  Your description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: hyeokyyun.github.io # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+title: Hyeoker-Blog
+description: "A Jekyll Blog Theme For Hackers"
+author:
+  name: "Korea Post"
+  email: "hyeoky98@gmail.com"
+  url: "https://hyeokyyun.github.io"
 
-facebook:
-  app_id: 
+baseurl: /
 
-logo: "../css/2016_style/img/icon-large.png"
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
-
-include: ['_2016_pages', '_2017_pages']
-
+future: true
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Custom variables
+owner : "SomeHacker"
+year : "2020"
